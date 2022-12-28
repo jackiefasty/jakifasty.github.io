@@ -606,18 +606,16 @@ button {
     font-weight: 500;
     margin-left: 0px;
     padding-top: 30px;
-
-    
 }
 #col{
     background-color: #f5f5f580;
     border-radius: 25px;
 }
-.home_section{
+#home_section{
     width: 100%;
     float: left;
    /* background-color: black;*/
-    background-image: url("../images/edin.jpg");
+    background-image: url("../images/background3.png");
     background-attachment: fixed ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -921,4 +919,3 @@ button {
 .padding_video_0{
     margin-top: 0px; 
 }
-
