@@ -613,7 +613,7 @@ button {
     background-color: #f5f5f580;
     border-radius: 25px;
 }
-#home_section{
+.home_section{
     width: 100%;
     float: left;
    /* background-color: black;*/
