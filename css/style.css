@@ -465,7 +465,7 @@ button {
     padding-bottom: 15%;
 }
 
-.intro_text{
+.home_text{
     width: 100%;
     float: left;
     font-size: 50px;
@@ -613,7 +613,7 @@ button {
     background-color: #f5f5f580;
     border-radius: 25px;
 }
-#intro_section{
+#home_section{
     width: 100%;
     float: left;
    /* background-color: black;*/
