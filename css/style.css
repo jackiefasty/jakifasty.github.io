@@ -322,11 +322,11 @@ button {
     text-align: center;
     background-color: #fcfcfd;
     color: #191919;
-    border-left: 10px solid #29014e;
+    border-left: 10px solid #599ee9;
     border-radius: 30px;
-    border-right: 10px solid #29014e;
-    border-top: 4px solid #29014e;
-    border-bottom: 4px solid #29014e;
+    border-right: 10px solid #599ee9;
+    border-top: 4px solid #599ee9;
+    border-bottom: 4px solid #599ee9;
     padding: 5px 0px;
     margin-top: 40px;
 }
@@ -448,7 +448,7 @@ button {
     width: 100%;
     float: left;
     font-size: 50px;
-    color: #000000;
+    color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
     text-align: right;
