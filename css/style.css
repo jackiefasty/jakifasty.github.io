@@ -448,7 +448,7 @@ button {
     width: 100%;
     float: left;
     font-size: 50px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 600;
     text-transform: uppercase;
     text-align: right;
@@ -459,7 +459,7 @@ button {
     width: 100%;
     float: left;
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
     margin-left: 0px;
     padding-top: 20%;
     padding-bottom: 15%;
