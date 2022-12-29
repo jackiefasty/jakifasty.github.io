@@ -282,10 +282,8 @@ button {
     width: 100%;
     float: left;
     font-size: 30px;
-    color: #599ee9;
+    color: #ffffff;
     font-weight: 600;
-    text-transform: uppercase;
-
 }
 .controller_text {
     width: 100%;
@@ -302,7 +300,6 @@ button {
     font-size: 30px;
     color: #ffffff;
     font-weight: 600;
-    text-transform: uppercase;
     line-height: 50px;
 }
 .banner_text {
@@ -462,7 +459,10 @@ button {
     color: #000000;
     margin-left: 0px;
     padding-top: 20%;
+    font-weight: 600;
     padding-bottom: 15%;
+
+    /*line-height: 50px;*/
 }
 
 .home_text{
