@@ -236,7 +236,7 @@ button {
     font-size: 18px;
 }
 .bg-light {
-    background-color:#512c79 !important;
+    background-color:#599ee9 !important;
     
 }
 .navbar-light .navbar-nav .nav-link {
@@ -282,7 +282,7 @@ button {
     width: 100%;
     float: left;
     font-size: 30px;
-    color: #0400db;
+    color: #599ee9;
     font-weight: 600;
     text-transform: uppercase;
 
@@ -300,7 +300,7 @@ button {
     width: 100%;
     float: left;
     font-size: 30px;
-    color: #0400db;
+    color: #599ee9;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 50px;
