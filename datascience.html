@@ -47,12 +47,39 @@
     <d iv class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1 class="controller_text_2">OpenGL Project</h1>
-          <p class="banner_text_2">The project consists of the implementation of forward and deferred rendering pipelines. 
-            It was developed in the Real-time Graphics module during the Bachelor's degree in Audiovisual Systems Engineering. 
-            It was developed using the framework provided by the university and it was a group project composed by 2 people.
+          <h1 class="controller_text_2">Model Prediction for dataset on Data Science</h1>
+          <p class="banner_text_2">
+            <p>
+              The project has as objective the prediction of activity of chemical compounds from the given dataset:
+              An analysis of a model prediction is given from a dataset. The complete dataset consists in two sets, a training and test sets, 
+              while for the training set, this is separated into validation and training sets. The order and methodology consists in the 
+              collection of features, data preparation, models identification, model selection, test given the different selected models
+              and presentation of the results.
+            </p>
+
+            <p>
+              For the modelling part, considered the most important one, was done given the stratified k-fold technique once the training
+              set was given, and the optimization of the hyperparameters for each model was done thanks to GridSearchCV. This function pairs 
+              the input hyper-parameters for classifier, generates and learns the input data separated by the given cross validation method.
+              Later on, based on the AUC score, for each paired parameter, returns the model and the best parameters with the highest performance.
+              Then, according to the comparison between the predicted output and the ACTIVE column for the validation set, the ROC_AUC_SCORE,
+              we use it to calculate the AUC score.
+            </p>
+
+            <p>
+              The models used for the predition and testing of the dataset are the Random Forest Classifier (RFC), Multilayer Perceptron 
+              Classifier (MLP), Multinomial Naive Bayes and BernoulliNB Naive Bayes. From them different results for the basic information 
+              datasets and fingerprint dataset were obtained, finding that the one giving the best AUC score is the MLP model while using 
+              the dataset containing both the original and the fingerprints information.
+            </p>
+
+            <p>
+              The images below show the process from the extraction and analysis of the datasets by tables, to the final substraction of
+              the scores after modeling and, eventually, the plotting of the values.
+            </p>
+             
           </p>
-          <div class="shop_bt"><a href="https://github.com/jakifasty/ID2214ProgrammingDataScience"> GitHub</a></div> 
+          <div class="shop_bt"><a href="https://github.com/jakifasty/ID2214ProgrammingDataScience">GitHub</a></div> 
         </div>
       </div>
       <div class="row_container">
